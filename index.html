@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de Stats</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/>
+    
+    
+</head>
+<body style="background-color: black;">
+    
+  <nav class="navbar navbar-dark" style="background-color: #212b38;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/Logo.jpg" width="30" height="24" class="d-inline-block align-text-top">
+        Aether
+      </a>
+    </div>
+  </nav>
+
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+
+          <div class="row">
+            <div class="col">
+              <div class="container-fluid container-pyramid" id="lista-piramide">
+                
+                <div style="place-self: stretch stretch; background-color: #726eff"><p>CARISMA</p></div>
+                <div style="place-self: stretch stretch; background-color: #211bd4"><p>SUBTERFUGIO</p></div>
+                <div style="place-self: stretch stretch; background-color: #211bd4"><p>ARMAS CC</p></div>
+                <div style="place-self: stretch stretch; background-color: #54ffe7"><p>ARCANOS</p></div>
+                <div style="place-self: stretch stretch; background-color: #54ffe7"><p>ARMAS LA</p></div>
+                <div style="place-self: stretch stretch; background-color: #54ffe7"><p>VETERINARIA</p></div>
+                <div style="place-self: stretch stretch; background-color: #08c6ab"><p>INVESTIGAR</p></div>
+                <div style="place-self: stretch stretch; background-color: #08c6ab"><p>SABIDURIA</p></div>
+                <div style="place-self: stretch stretch; background-color: #08c6ab"><p>ATLETISMO</p></div>
+                <div style="place-self: stretch stretch; background-color: #08c6ab"><p>FISICO</p></div>
+                <div style="place-self: stretch stretch; background-color: #37465b"><p>CONTACTOS</p></div>
+                <div style="place-self: stretch stretch; background-color: #37465b"><p>PERSPICACIA</p></div>
+                <div style="place-self: stretch stretch; background-color: #37465b"><p>MANIPULACION</p></div>
+                <div style="place-self: stretch stretch; background-color: #37465b"><p>ESTUDIOS</p></div>
+                <div style="place-self: stretch stretch; background-color: #37465b"><p>OPERAR</p></div>
+                <div style="place-self: stretch stretch; background-color: #212b38"><p>SUPERVIVENCIA</p></div>
+                <div style="place-self: stretch stretch; background-color: #212b38"><p>INGENIERIA</p></div>
+                <div style="place-self: stretch stretch; background-color: #212b38"><p>PERCEPCION</p></div>
+                <div style="place-self: stretch stretch; grid-row: 1 / 1; grid-column: 1 / 6"></div>
+                <div style="place-self: stretch stretch; grid-row: 2 / 2; grid-column: 2 / 6"></div>
+                <div style="place-self: stretch stretch; grid-row: 3 / 3; grid-column: 3 / 6"></div>
+                <div style="place-self: stretch stretch; grid-row: 4 / 4; grid-column: 4 / 6"></div>
+                <div style="place-self: stretch stretch; grid-row: 5 / 5; grid-column: 5 / 6"></div>
+                <div style="place-self: stretch stretch; grid-row: 7 / 7; grid-column: 4 / 6"></div>
+                <div style="place-self: stretch stretch; grid-row: 8 / 8; grid-column: 1 / 6"></div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <div class="container">
+                <h2>Habilidades</h2>
+              </div>
+              <div class="container-fluid container-habilities">
+                
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseArcanos" aria-expanded="false" aria-controls="collapseArcanos">
+                      ARCANOS
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseArmasCC" aria-expanded="false" aria-controls="collapseArmasCC">
+                      ARMAS CC
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseArmasLa" aria-expanded="false" aria-controls="collapseArmasLa">
+                      ARMAS LA
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAtletismo" aria-expanded="false" aria-controls="collapseAtletismo">
+                      ATLETISMO
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCarisma" aria-expanded="false" aria-controls="collapseCarisma">
+                      CARISMA
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContactos" aria-expanded="false" aria-controls="collapseContactos">
+                      CONTACTOS
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEstudios" aria-expanded="false" aria-controls="collapseEstudios">
+                      ESTUDIOS
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFisico" aria-expanded="false" aria-controls="collapseFisico">
+                      FISICO
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIngenieria" aria-expanded="false" aria-controls="collapseIngenieria">
+                      INGENIERIA
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInvestigar" aria-expanded="false" aria-controls="collapseInvestigar">
+                      INVESTIGAR
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseManipulacion" aria-expanded="false" aria-controls="collapseManipulacion">
+                      MANIPULACION
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOperar" aria-expanded="false" aria-controls="collapseOperar">
+                      OPERAR
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePercepcion" aria-expanded="false" aria-controls="collapsePercepcion">
+                      PERCEPCION
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePerspicacia" aria-expanded="false" aria-controls="collapsePerspicacia">
+                      PERSPICACIA
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSabiduria" aria-expanded="false" aria-controls="collapseSabiduria">
+                      SABIDURIA
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSubterfugio" aria-expanded="false" aria-controls="collapseSubterfugio">
+                      SUBTERFUGIO
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSupervivencia" aria-expanded="false" aria-controls="collapseSupervivencia">
+                      SUPERVIVENCIA
+                    </button>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVeterinaria" aria-expanded="false" aria-controls="collapseVeterinaria">
+                      VETERINARIA
+                    </button>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col">
+
+              <div class="collapse" id="collapseArcanos">
+                <div class="card card-body">
+                  El conocimiento y la capacidad elemental innata. 
+                </div>
+              </div>
+              <div class="collapse" id="collapseArmasCC">
+                <div class="card card-body">
+                  El conocimiento y manejo de armas cuerpo a cuerpo.
+                </div>
+              </div>
+              <div class="collapse" id="collapseArmasLa">
+                <div class="card card-body">
+                  El conocimiento y manejo de armas que poseen un gran alcance.
+                </div>
+              </div>
+              <div class="collapse" id="collapseAtletismo">
+                <div class="card card-body">
+                  La capacidad general de ser diestro y agil.
+                </div>
+              </div>
+              <div class="collapse" id="collapseCarisma">
+                <div class="card card-body">
+                  La capacidad de relacionarse con las personas amigablemente.
+                </div>
+              </div>
+              <div class="collapse" id="collapseContactos">
+                <div class="card card-body">
+                  La capacidad de conocer gente que pueda ayudarte o de reunir información por las calles.
+                </div>
+              </div>
+              <div class="collapse" id="collapseEstudios">
+                <div class="card card-body">
+                  Los conocimientos generales que alguien pueda tener.
+                </div>
+              </div>
+              <div class="collapse" id="collapseFisico">
+                <div class="card card-body">
+                  La fortaleza y resistencia del cuerpo, además del control sobre las caracteristicas animales.
+                </div>
+              </div>
+              <div class="collapse" id="collapseIngenieria">
+                <div class="card card-body">
+                  La capacidad de reparar o construir utilizando recursos.
+                </div>
+              </div>
+              <div class="collapse" id="collapseInvestigar">
+                <div class="card card-body">
+                  La capacidad de ver y analizar cosas a detalle o de reunir información de una base de datos.
+                </div>
+              </div>
+              <div class="collapse" id="collapseManipulacion">
+                <div class="card card-body">
+                  La capacidad de utilizar a la gente a tu favor.
+                </div>
+              </div>
+              <div class="collapse" id="collapseOperar">
+                <div class="card card-body">
+                  La capacidad de utilizar aparatos mecánicos y tecnológicos.
+                </div>
+              </div>
+              <div class="collapse" id="collapsePercepcion">
+                <div class="card card-body">
+                  La capacidad de captar estimulos con los sentidos de forma precisa y rapida.
+                </div>
+              </div>
+              <div class="collapse" id="collapsePerspicacia">
+                <div class="card card-body">
+                  La capacidad de entender las emociones e intenciones de una persona.
+                </div>
+              </div>
+              <div class="collapse" id="collapseSabiduria">
+                <div class="card card-body">
+                  La capacidad de resolver problemas intelectuales y de tomar buenas decisiones.
+                </div>
+              </div>
+              <div class="collapse" id="collapseSubterfugio">
+                <div class="card card-body">
+                  La capacidad de hacer cosas por medios ocultos: Cerrajeria, Trampas y Sigilo.
+                </div>
+              </div>
+              <div class="collapse" id="collapseSupervivencia">
+                <div class="card card-body">
+                  La capacidad de sobrevivir a la intemperie.
+                </div>
+              </div>
+              <div class="collapse" id="collapseVeterinaria">
+                <div class="card card-body">
+                  El conocimiento teórico y práctico sobre el cuerpo animal.
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col">
+          <canvas id="myChart" width="100" height="100"></canvas>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
